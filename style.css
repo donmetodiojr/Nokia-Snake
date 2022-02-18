@@ -1,0 +1,37 @@
+.grid {
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+   
+  }
+  
+  .grid div {
+    width: 140px;
+    height: 60px;
+  }
+  
+  .snake {
+    background-color:yellow;
+  }
+  
+  .apple {
+    background-color: orangered;
+  }
+
+  .start {
+      background-color: antiquewhite;
+  }
+
+  .score{
+      color: blueviolet;
+      font-style: italic;
+      font-size: large;
+  }
+
+  .start:hover {
+    background-color:whitesmoke;
+    }
+
+    
